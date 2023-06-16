@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/ingydotnet/git-subrepo#readme
+;
+[subrepo]
+	remote = https://www.github.com/smash64-dev/hidapi
+	branch = master
+	commit = 80e8d62bc1cc70876d57fed7e76d7478757b4da8
+	parent = bbef37072ca5e8cf8bcde4919fb85ab817a46b35
+	method = merge
+	cmdver = 0.4.6
