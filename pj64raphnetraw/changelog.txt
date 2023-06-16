@@ -1,0 +1,58 @@
+2021-06-28: Version 1.0.7
+	- Fix controller swapping for some games.
+	- Show a message box when attempting to configure the plugin.
+	  (contributed by CEnnis91)
+
+2018-11-06: Version 1.0.6
+	- Add support for adapter firmware version 3.6.x
+
+2018-05-16: Version 1.0.5
+    - Add protection against invalid commands (Fixes controller pak errors
+	  when using more than one)
+    - Disabled logging (slight increase in performance)
+
+2017-11-22: Version 1.0.4
+	- Add support for the upcoming 3.5.x adapter firmware (2-player adapters
+	  won't work properly otherwise)
+
+2017-04-16: Version 1.0.3
+	- Fix ports 1 and 3 special version
+	- Another attempt to fix netplay (version 1.0.2 did not work)
+
+2017-04-10: Version 1.0.2
+	- Add a single-port version (improves dual-port adapter performance
+	  in some situations by not attempting to poll non-connected controllers)
+	- Add a netplay version. (Single player only. Hopefully this one will work
+	  with the newest firmware)
+
+2017-02-04: Version 1.0.1
+	- Add a ports 1 and 3 build (for the Densha de GO! controller)
+
+2017-01-15: Version 1.0.0
+    - Add multiple adapter support
+	- Add a special build where adapter port 2 equals N64 port 4 (for VRU)
+
+2016-12-03: Version 0.9.4
+	- Improved structure and separation for easier maintenance of the code
+	  shared between the Project 64 and mupen64plus versions of this plugin.
+	- Support for the upcoming 3.4.x adapter firmware (will provide even lower
+	latency/overhead)
+
+2016-11-26: Version 0.9.3
+	- Only handle channels supported by the adapter. This increases
+	  performance (reduces lag) by preventing meaningless attempts to
+	  communicate with controllers connected to non-existing ports on the
+	  adapter. It also fixes issues where games would see more than one
+	  controller was present.
+
+2016-11-24: Version 0.9.2
+	- Protect against invalid commands received from emulator. This fixes
+	  some games that failed to start with a "Break point found" message.
+
+2016-11-23: Version 0.9.1
+	- Use controller plugin spec 1.0 instead of 1.1 for compatibility with
+	  older version of Project 64.
+	- Disable controller polling only when a ROM is open.
+
+2016-11-22: Version 0.9
+	- Initial release

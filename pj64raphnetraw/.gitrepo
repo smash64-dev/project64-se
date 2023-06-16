@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/ingydotnet/git-subrepo#readme
+;
+[subrepo]
+	remote = https://www.github.com/smash64-dev/pj64raphnetraw
+	branch = master
+	commit = 0a74c42402cea881b442d25d56ee2a1d5a32c2d3
+	parent = 7d5982477d1c4555333f35785e96a3bd1efafa6a
+	method = merge
+	cmdver = 0.4.6

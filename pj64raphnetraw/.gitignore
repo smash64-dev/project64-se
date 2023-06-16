@@ -1,0 +1,7 @@
+*.d
+*.dll
+*.map
+*.elf
+*.bin
+*.o
+*.swp
