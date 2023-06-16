@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/ingydotnet/git-subrepo#readme
+;
+[subrepo]
+	remote = https://www.github.com/smash64-dev/GLideN64
+	branch = project64-se
+	commit = 784936df949b1edc2ad58bb4ecf4e58f1c51d62f
+	parent = 679b55a11cba006cfad1d6941273f5b342e1f058
+	method = merge
+	cmdver = 0.4.6
